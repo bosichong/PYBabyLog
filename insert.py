@@ -5,7 +5,7 @@
 
 '''
 
-import datetime
+
 import argparse
 
 from DbHelp import *
@@ -38,7 +38,7 @@ def insertBlog(first='', language='', cognitive='', blog=''):
         except:
             # 如果发生错误则回滚
             # db.rollback()
-            print("数据插添加失败！！")
+            print("数据添加失败！！")
 
 
 def insertHeightWeight(height,weight):
@@ -62,7 +62,7 @@ def insertHeightWeight(height,weight):
         except:
             # 如果发生错误则回滚
             # db.rollback()
-            print("数据插添加失败！！")
+            print("数据添加失败！！")
 
 
 def main():
