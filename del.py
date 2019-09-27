@@ -50,7 +50,7 @@ def selectBlog(id):
 
 def delHealthy(id):
     '''
-    删除日记
+    删除Healthy
     :param id: int 日记ID
     :return:
     '''
@@ -85,7 +85,7 @@ def selectHealthy(id):
 
 def main():
 
-    parser = argparse.ArgumentParser(prog="Insert", description="添加babyblog数据，添加身高体重数据。")
+    parser = argparse.ArgumentParser(prog="Delete", description="删除babyblog数据，删除身高体重数据。")
     parser.add_argument("-bid", "--blogid", help="请输入需要删除blog的ID",type=int )
     parser.add_argument("-hid", "--healthyid", help="请输入healthy的ID",type=int )
     args = parser.parse_args()

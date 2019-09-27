@@ -36,7 +36,7 @@ if __name__ == '__main__':
             db.execute('SELECT * FROM bb_blog LIMIT 10')
             print(db)
             for i in db:
-                print(i['id'])
+                print(i)
         except:
             # 如果发生错误则回滚
             db.rollback()
