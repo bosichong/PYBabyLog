@@ -31,7 +31,7 @@ PYBabyLog使用Python开发的终端版本，其增删改查的操作都是在�
 ### 安装方法
 
 
-1.下载程序所有文件，并建立mysql数据库，导入下边的sql文件构建数据库[数据库构建文件](https://gitee.com/J_Sky/babylog)
+1.下载程序所有文件，并建立mysql数据库，导入下边的sql文件构建数据库[数据库构建文件](https://gitee.com/J_Sky/babylog/blob/master/doc/mybaby.sql)
 
 2.修改`DbHelp.py`中的MySQL的连接配置项即可
 
